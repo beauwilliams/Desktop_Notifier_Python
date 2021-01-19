@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+<plist version="1.0"> 
+<dict> 
+<key>Label</key> 
+<string>desktop-notifier-python</string> 
+<key>ProgramArguments</key> 
+<array> 
+<string>/Users/admin/Dropbox/Software Eng/Projects/My Codes/python/Desktop_Notifier_Python/env/bin/python</string> 
+<string>/Users/admin/Dropbox/Software Eng/Projects/My Codes/python/Desktop_Notifier_Python/test_notifier.py</string> 
+</array> 
+<key>StartInterval</key> 
+<integer>20</integer> 
+</dict> 
+</plist> 
