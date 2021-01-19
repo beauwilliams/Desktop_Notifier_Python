@@ -37,6 +37,5 @@ if (covidData != None):
             # the notification stays for 50sec
             timeout  = 50
         )
-        #sleep for 4 hrs => 60*60*4 sec
-        #notification repeats after every 4hrs
-        time.sleep(60*60*4)
+        #SETTING A HARD CODED 30 SECOND RATE LIMIT SO WE DONT MAKE THE API MAD :)
+        time.sleep(30)

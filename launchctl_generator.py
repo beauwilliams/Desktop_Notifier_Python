@@ -5,7 +5,7 @@ file = open("launchctl_config.plist","w")
 
 cwd = os.getcwd()
 pythonpath =  "<string>{}/env/bin/python</string>".format(cwd)
-filepath = "<string>{}/test_notifier.py</string>".format(cwd)
+filepath = "<string>{}/coronafier.py</string>".format(cwd)
 interval = int(input("Time in seconds you wish to be notified of the current coronavirus stats in Australia: "))
 
 
